@@ -232,6 +232,13 @@ ul {
     width: 100%;
     height: auto;
   }
+
+  .profileimage{
+    width: 50%;
+    height: auto;
+    padding-left: 70px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -245,6 +252,12 @@ ul {
     width: 100%;
     height: auto;
   }
+  .profileimage{
+    width: 50%;
+    height: auto;
+    padding-left: 70px;
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -255,8 +268,14 @@ ul {
   }
 
   img {
+    height: auto;
+  }
+
+  .profileimage{
     width: 100%;
     height: auto;
+    padding-left: 70px;
+    padding-right: 50px;
   }
 }
 /*### Minimum Requirements
