@@ -196,3 +196,19 @@ ul {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+@media screen and (min-width: 980px) {
+}
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 640px) {
+}
+
+/*### Minimum Requirements
+
+Attempt to complete homework assignment as described in instructions. If unable to complete certain portions, please pseudocode these portions to describe what remains to be completed.
+
+
+I am having trouble getting my site to be responsive with the header.
+I tried using html to target the whole page and set the width, but the top nav would not behave correctly.
