@@ -225,6 +225,12 @@ ul {
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 
@@ -234,6 +240,11 @@ ul {
     overflow-wrap: normal;
     position: static;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -241,6 +252,11 @@ ul {
     float: none;
     width: 100%;
     overflow-wrap: normal;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 /*### Minimum Requirements
