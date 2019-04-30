@@ -145,23 +145,22 @@ li a{
   background-color: #4aaaa5;
   width: 200px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  margin-left: 480px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ffffff;
   display: block;
   float: left;
+  position: relative;
   font-size: 24pt;
   font-weight: bold;
   padding-right: 25px;
   padding-left: 25px;
-  position: relative;
+  margin-left: auto;
 }
 
 .navlinks {
   display: block;
-  position: relative;
 }
 
 nav {
@@ -173,7 +172,7 @@ nav {
   line-height: 1.5;
   overflow: hidden;
   color: #777777;
-  position: relative;
+  padding-left: 15%;
 }
 
 nav a {
@@ -182,7 +181,6 @@ nav a {
   padding-top: 35px;
   margin-right: -70px;
   text-decoration: none;
-  position: relative;
 }
 
 .profileimage{
@@ -202,9 +200,11 @@ ul {
 }
 
 .navwrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
   width: 100%;
-  position: relative;
-  display: block;
+  align-content: center;
 }
 
 /* For desktop: */
@@ -230,6 +230,10 @@ ul {
   img {
     width: 100%;
     height: auto;
+  }
+
+  nav {
+    padding-left: 0%;
   }
 
   .navwrapper {
@@ -262,6 +266,10 @@ ul {
     height: auto;
     padding-left: 70px;
     padding-right: 50px;
+  }
+
+  nav {
+    padding-left: 0%;
   }
 
   .navwrapper {
